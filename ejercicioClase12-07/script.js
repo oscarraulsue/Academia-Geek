@@ -2,7 +2,7 @@ let salarioSemanal = 0;
 let horasSemanales =  Number ( prompt ( 'Ingrese horas trabajadas en la semana' ) ) ;
 
 
-if(horasSemanales < 41){
+if(horasSemanales <= 40){
 salarioSemanal = horasSemanales * 16000
 
 }

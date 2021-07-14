@@ -1,0 +1,55 @@
+
+html{
+    background-color: rgb(189, 221, 202);
+    
+}
+main{
+     text-align: center;
+   }
+h1{
+    color: rgba(128, 84, 18, 0.801);
+    font-size: 70px;
+    border-bottom-style: double ;
+    margin-bottom: 0;
+}
+p{
+    font-size: 25px;
+    margin-top: 0;
+    color: rgb(48, 44, 32)
+}
+#img-caption{
+    color: rgb(53, 43, 43);
+    font-size: 22px;
+    margin-bottom: 5px;
+    margin-top: 0;
+}
+ #image{
+    border-color: gray;
+    border-style: solid;
+    border-width: 30px;
+ }
+ h2{
+    color: rgb(0, 0, 0);
+    font-size: 35px;
+ }
+ ul{
+    max-width: 700px;
+    margin: 0 auto 0 auto;
+    text-align: left;
+    line-height: 1.8;
+    font-size: 26px;
+    
+ }
+ .cita{
+    font-size: 30px;
+        text-align: center;
+        margin: 0 auto 0 auto;
+    line-height: 1.4;
+    color:black;
+    padding: 70px;
+    max-width: 1200px;
+       }
+h3{
+    font-size: 22px;
+}
+
