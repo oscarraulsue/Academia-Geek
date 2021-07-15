@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+    <div class="container">
+        <head class="encabezado">
+            <h1 id="title">Sastifacción del cliente</h1>
+            <p id="description">
+               Cuentenos como fue su experiencia de compra en nuestor almacen
+              </p>
+        </head>
+        <main class="principal">
+            <form id="survey-form">
+                <div class="form-group">
+                    <label id="name-label" for="name">Nombre</label>
+                    <input
+                      type="text"
+                      name="name"
+                      id="name"
+                      class="form-control"
+                      placeholder="INGRESE SU NOMBRE"
+                      required
+                    />
+                </div>
+                <div class="form-group">
+                    <label id="email-label" for="name">Correo Electronico</label>
+                    <input
+                      type="email"
+                      name="email"
+                      id="email"
+                      class="form-control"
+                      placeholder="INGRESE SU CORREO ELECTRONICO"
+                      required
+                    />
+                </div>
+                <div class="form-group">
+                    <label id="number-label" for="number">Calificacin del almacen</label>
+                    <input
+                      type="number"
+                      name="calificacion"
+                      id="number"
+                      min="1"
+                      max="10"
+                      class="form-control"
+                      placeholder="CALIDIQUE DEL 1 AL 10 COMO FUE SU EXPERIENCIA"
+                      required
+                    />
+                    <div class="form-group">
+                    <p>¿Que te gusto más en tu experiencia de compra?</p>
+                    <select id="dropdown" name="gustoenexperiencia" class="form-control" required>
+                      <option disabled selected value>Seleccione una opción</option>
+                      <option value="atencion">Atención al publico</option>
+                      <option value="precios">Precios de los productos</option>
+                      <option value="ofertas">Ofertas</option>
+                      <option value="vproductos">Variedad de productos</option>
+                      </select>
+                    </div>
+                    <div class="form-group">
+                        <p>¿Te gustaria ser parte de nuestro grupo de clientes frecuentes y recibir mas beneficios?</p>
+                        <label title="Seleccione una opción" class="radiobox">
+                          <input
+                            name="cliente-frecuente"
+                            value="si"
+                            type="radio"
+                            class="input-radio"
+                            checked
+                          />  Si</label>
+                        <label title="Seleccione una opción" class="radiobox">
+                          <input
+                            name="cliente-frecuente"
+                            value="despues"
+                            type="radio"
+                            class="input-radio"
+                          />  En otra oportunidad</label>
+                  
+                       <label
+                        title="Seleccione una opción" class="radiobox">
+                        <input
+                            name="cliente-frecuente"
+                            value="no"
+                            type="radio"
+                            class="input-radio"
+                        />  No</label>
+                     </div>
+                      <div class="form-group">
+                        <p>
+                          ¿Que te gustaria que mejoremos en nuestro almacen?
+                        </p>
+                  
+                        <label title="Seleccionar" class="checkbox">
+                          <input
+                            name="mejora"
+                            value="atencion-cliente"
+                            type="checkbox"
+                            class="input-checkbox"
+                          />  Atencion al cliente</label
+                        >
+                        <label title="Seleccionar" class="checkbox">
+                          <input
+                            name="mejora"
+                            value="ofert"
+                            type="checkbox"
+                            class="input-checkbox"
+                          />  Ofertas</label
+                        >
+                        <label title="Seleccionar" class="checkbox">
+                            <input
+                              name="mejora"
+                              value="ofert"
+                              type="checkbox"
+                              class="input-checkbox"
+                            />  Variedad de producto</label
+                          >
+                        <label title="Seleccionar"class="checkbox">
+                          <input
+                            name="mejoras"
+                            value="precio-productos"
+                            type="checkbox"
+                            class="input-checkbox"
+                          />  Precios de los productos</label>
+                      
+                     
+                       
+                      </div>
+                  
+                      <div class="form-group">
+                        <p>Comentarios o Suguerencias adicionales</p>
+                        <textarea
+                          id="commentarios"
+                          class="input-textarea"
+                          name="commentarios"
+                          placeholder="Agrege sus comentarios aquí..."
+                        ></textarea>
+                      </div>
+                  
+                      <div class="form-group">
+                        <button type="submit" id="submit" class="submit-button">
+                          Enviar
+                        </button>
+                      </div>
+                    </form>
+                  
+                </div>
+            
+
+        </main>
+        <footer class="piepagina">
+Gracias por ser parte de nuestar estimada clientela
+        </footer>
+    </div>
+
+
+</body>
+</html>
