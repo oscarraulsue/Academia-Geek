@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css">
+    <title>Document</title>
+</head>
+<body id="bodyCl">
+    <nav id="menu">
+       
+        <ul>
+                    <li>
+                <a href="/almacen-de-computadores/index.html">Inicio</a>
+            </li>
+            <li>
+                <a href="/almacen-de-computadores/index2.html#">Compra</a>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="container">
+    <div id="divCalcular">
+        <h1 class="titel">Compra de Computadores</h1>
+        <label class="lab">Ingrese la cantidad de computadores</label><br>
+        <br><input type="number" id="cantidad"> <br></br>
+        <button class="boton" onclick="calcular();">Calcular</button>
+       
+    </div>
+    </div>
+    
+    <div id="Tabla"  class="tabla" >
+        <div class="stab">
+        <img src="./imagen/logo-removebg-preview.png" alt="" title="Computer World" width="400px"><br>
+        <h1 class="titelOrden">Orden de Compra</h1>
+        
+        
+        <label>Valor de compra</label>
+        <input type="text" id="valorCompra" disabled><br></br>
+        <label>Valor de descuento</label>
+        <input type="text" id="valorDescuento" disabled><br></br>
+        <label>Total</label>
+        <input type="text" id="total" disabled><br></br>
+        <div id="cont3"></div>
+        <button class="boton2" onclick="volver();">Volver</button>
+        
+    </div>  
+
+    </div>
+</div>
+
+
+    
+
+
+
+
+    <script src="./script.js"></script>
+</body>
+</html>

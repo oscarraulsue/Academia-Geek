@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tourney:wght@500&display=swap');
+#titel1{
+  font-size: 70px;
+  color: rgb(255, 255, 255);
+ text-align: center;
+ text-shadow: 0px 2px 2px rgba(116, 221, 151, 0.486);
+ font-family: 'Dancing Script', swap;
+}
+article{
+  color: #22c2ba;
+  text-align: center;
+  font-size: 30px;
+  font-family:'Source Code Pro', swap;
+}
+.btncompra{
+font-size: 18px;
+font-weight: bold;
+margin: 0 auto;
+}
+.pie{
+  color: rgb(255, 255, 255);
+ text-align: center;
+ font-size: 22px;
+ margin: 0 auto;
+ padding-bottom: 15px;
+}
+#menu ul {
+  list-style: none;
+  margin: -7px;
+  padding: 0;
+  background-color: hsl(0, 0%, 0%);
+  text-align-last: right;
+}
+#menu li {
+  display: inline;
+  width: 6rem;
+  color: #ffffff;
+  font-size: 22px;
+  font-family:'Source Code Pro', swap;
+  
+}
+#menu a {
+  display: inline;
+  padding: 6px 16px;
+ color: #ffffff;
+  height: 29px;
+  font-size: 22px;
+  font-family:'Source Code Pro', swap;
+ 
+}
+  #menu a:hover {
+    color: rgb(233, 120, 233);
+    box-shadow: 0px 2px 2px rgba(128, 128, 128, 0.45);
+  }
+  #cinta{
+    color: #ffffff;
+  }
+  .container-gal a{
+    background-color: azure;
+    margin: 10px;
+    padding: 0 5px 5px 5px;
+    border: black;
+    border-radius: 7px;
+    color:black;
+    font-size: 20px;
+    font-weight: bold;
+  }
+.tabla {
+  display: none;
+  width: 100%;
+  margin: 0 auto 0 auto;
+  max-width: 700px;
+  text-align: center;
+  font-family:'Source Code Pro', swap;
+  align-items: center;
+  text-shadow: 1px 1px hsl(0, 0%, 0%);
+  height:45rem;
+  
+  color: #495057;
+  background-color: rgba(57, 245, 198, 0.74);
+  background-clip: padding-box;
+  border: 3px solid #070b0f;
+  border-radius: 0.25rem;
+  box-shadow: 3px 3px rgb(0, 0, 0);
+}
+.titelOrden{
+  font-family: 'Dancing Script', swap;
+  font-size: 62px;
+  color: #632020;
+}
+#bodyCl{
+
+ background-image:url(../imagen/fondopc.jpg);
+ background-repeat:no-repeat;
+ background-color: rgba(231, 218, 158, 0.548);
+ background-size: cover;
+}
+.titel{
+  color: #e0e0e0;
+  font-size: 20px;
+}
+.lab{
+  color: #e0e0e0;
+}
+
+
+.container {
+  width: 100%;
+  margin: 3.125rem auto 0 auto;
+  max-width: 700px;
+  
+}
+.titel{
+  font-size: 60px;
+  color: #ffffff;
+  font-family: 'Dancing Script', swap;
+  text-shadow: 3px 3px hsl(0, 0%, 0%);
+}
+.lab{
+  font-size: 25px;
+  color: aquamarine;
+  text-shadow: 3px 3px hsl(0, 0%, 0%);
+}
+#divCalcular {
+  text-align: center;
+  width: 100%;
+  align-items: center;
+  font-family:'Source Code Pro', swap;
+  height:18rem;
+  padding: 4rem 2rem;
+  color: #495057;
+  background-color: rgba(8, 3, 29, 0.692);
+  background-clip: padding-box;
+  border: 3px solid #070b0f;
+  border-radius: 0.25rem;
+  box-shadow: 3px 3px rgba(255, 255, 255, 0.692);
+  display: block;
+}
+.boton {
+
+  width: 30%;
+  padding: 0.3rem;
+  align-items: center;
+  background-color: rgb(89, 0, 100);
+  color: rgb(255, 255, 255);
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 22px;
+  font-weight: bold;
+}
+.boton2 {
+
+  width: 30%;
+  padding: .3rem;
+  margin-top: 0.7rem;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+}
+#cantidad{
+  min-height: 10px;
+  width: 30%;
+  padding: 0.3 rem;
+  resize: vertical;
+  font-size: 22px;
+}
+
+label {
+  display:block;
+  align-items: center;
+  padding: 0 0;
+  margin-bottom: 0.1rem;
+  font-size: 25px;
+  font-family:'Source Code Pro', swap;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  text-shadow: 2px 2px hsl(0, 0%, 0%);
+}
+#valorCompra {
+  background-color: rgba(8, 3, 29, 0.692);
+  background-clip: padding-box;
+  border: 3px solid #070b0f;
+  border-radius: 0.25rem;
+  color: antiquewhite;
+  width: 50%;
+  padding: 0.1rem;
+  font-size: 18px;
+}
+#total {
+  background-color: rgba(8, 3, 29, 0.692);
+  background-clip: padding-box;
+  border: 3px solid #070b0f;
+  border-radius: 0.25rem;
+  color: antiquewhite;
+  width: 50%;
+  padding: 0.1rem;
+  font-size: 18px;
+}
+#valorDescuento {
+  background-color: rgba(8, 3, 29, 0.692);
+  background-clip: padding-box;
+  border: 3px solid #070b0f;
+  border-radius: 0.25rem;
+  color: antiquewhite;
+  width: 50%;
+  padding: 0.1rem;
+  font-size: 18px;
+}
+#cont3 {
+  color: darkred;
+  font-size: 20px;
+  font-weight: bold;
+}
+.container-gal{
+  width: 95%;
+  align-content: center;
+  margin: 0 auto;
+  padding-left: 0px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-gap: 10px;
+  
+}
+div.galeria{
+  margin: 10px;
+  box-shadow: 2px 4px 8px rgb(255, 255, 255);
+  margin-left: 10px;
+  width: 400;
+  margin: 20px 20px;
+  display: inline-block;
+  align-items: center; 
+
+}
+.galeria img{
+  width: 400px;
+  height: 300px;
+  margin: 10px auto;
+  align-content: center; 
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-gap: 10px;
+}
+#bodycl1{
+ 
+ background-repeat:no-repeat;
+ background-color: rgb(0, 0, 0);
+ background-size: cover;
+}
+#cantidad{
+  text-align: right;
+}
+#valorCompra{
+  text-align: right;
+}
+#valorDescuento{
+  text-align: right;
+}
+#total{
+  text-align: right;
+}
