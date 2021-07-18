@@ -236,7 +236,7 @@ div.galeria{
   margin: 20px 20px;
   display: inline-block;
   align-items: center; 
-
+max-width: 100%;
 }
 .galeria img{
   width: 400px;
