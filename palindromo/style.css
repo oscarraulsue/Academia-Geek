@@ -1,0 +1,55 @@
+body{
+    background-image:url(./imagenes/letras--644x362.jpg) ;
+    background-repeat:no-repeat;
+    background-size: cover;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+   
+}
+.container{
+    background-color: rgba(19, 121, 121, 0.856);
+    margin: 10px;
+    padding: 0 5px 5px 5px;
+    border: black;
+    border-radius: 7px;
+    width: 60vw;
+    align-items: center;
+text-align: center;
+display: flex;
+margin: 10px auto;
+
+   }
+.container h1{
+    font-size: 45px;
+    color: rgb(4, 7, 37);
+    text-shadow: 1px 1px white;
+    text-align: center;
+}
+.container p{
+    text-align: center;
+    font-size: 25px;
+    text-shadow: 1px 1px rgb(187, 173, 173);
+    padding: 10px;
+}
+.container label{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 22px;
+    text-shadow: 1.3px 1.3px rgb(2, 2, 2);
+}
+.container #cont3{
+    color: red;
+    font-weight: bold;
+    font-size: 18px;
+    text-shadow: 1px 1px rgb(2, 2, 2);
+padding: 10px;
+}
+.container button,
+            .input{
+font-weight: bold;
+padding: 7px;
+border-radius: 20%;
+margin: 10px;
+            }
