@@ -1,6 +1,6 @@
 
-let unidad, decena, centena, umil, romanos;
-let convr = [];
+
+
 let boton1 = document.getElementById('btn1');
 boton1.addEventListener('click', e => {
   convertirNumero()
@@ -8,15 +8,20 @@ boton1.addEventListener('click', e => {
 
 
 function conversor(numero){
+  let unidad="", decena="", centena="", umil="", romanos="";
+  let convr = [];
 romanos = numero
 
 if (numero == 0 || numero >= 4000){
-  alert('el numero')
+  document.getElementById('cont3').innerHTML='';
+  alert('el numero ingresado no es unnumero valido, los numeros validos van de 1 a 3.999');
+  
 }
-else{
-if (romanos.length == 0){
-  alert('el ')
-}else if (romanos.length > 0){
+else if (romanos.length == 0){
+  alert('el numero ingresado no es unnumero valido, los numeros validos van de 1 a 3.999');
+  document.getElementById('cont3').innerHTML='';
+}
+else if (romanos.length > 0){
   switch (romanos[romanos.length-1]){
   case "1" :
   unidad = "I";
@@ -118,21 +123,25 @@ if (romanos.length == 0){
     case "3" :
   umil = "MMM";
   break;
-  umil = "V	"
   }
 
 }
   convr.push(umil,centena,decena,unidad);
   return convr.join("");
 }
-}
+
 
 
 function convertirNumero(){
   ingreso = document.getElementById('numin').value;
   convr = conversor(ingreso);
+  if (ingreso == 0 || ingreso >= 4000){
+    document.getElementById('cont3').innerHTML='';   
+  }
+  else {
   document.getElementById('cont3').innerHTML= ingreso + ' en numeros romanos es: ' + convr;
   document.getElementById('numin').value='';
+  }
 }
 function volver() {
   document.getElementById('numin').value='';
