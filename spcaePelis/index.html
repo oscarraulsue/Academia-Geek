@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SpacePelis</title>
+  <!-- Bootstrap css-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <!-- CSS-->
+  <link rel="stylesheet" href="./styles/style.css">
+</head>
+
+<body>
+  <header>
+    
+    <img src="./imagnes/logo.jpg" alt="SpacePelis">
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="imgHeader" src="./imagnes/001.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img class="imgHeader" src="./imagnes/002.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img class="imgHeader" src="./imagnes/003.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img class="imgHeader" src="./imagnes/004.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img class="imgHeader" src="./imagnes/005.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img class="imgHeader" src="./imagnes/006.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img class="imgHeader" src="./imagnes/007.jpg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <div id="ul">
+      <ul class="nav nav-pills nav-fill mb-0 py-1 container">
+        <li class="nav-item" role="presentation">
+          <a class="nav-link " type="button" role="tab" aria-controls="pills-home" aria-selected="false" id="inicio"
+            href="index.html">Inicio</a>
+        </li>
+        <li class="nav-item" role="presentation">
+          <a class="nav-link" type="button" role="tab" aria-controls="pills-peliculas" aria-selected="false" id="pelicula"
+            href="peli.html">Peliculas</a>
+        </li>
+        <li class="nav-item" role="presentation">
+          <a class="nav-link" type="button" role="tab" aria-controls="pills-series" aria-selected="false"
+            href="series.html">Series</a>
+        </li>
+        <li class="nav-item" role="presentation">
+          <a class="nav-link" type="button" role="tab" aria-controls="pills-mi__lista" aria-selected="false" id="miListaH"
+            href="miLista.html">Mi lista</a>
+        </li>
+        <li class="nav-item" role="presentation">
+        <a class="nav-link" type="button" role="tab" aria-controls="pills-registrarse" aria-selected="false"
+          href="formulario.html">Registrarse</a>
+        </li>
+      </ul>
+    </div>
+    </div>
+  
+   
+ 
+
+  </header>
+
+  <body>
+    <div class="cont" id="cont">
+      <div class="estrenos">
+        <h1>Estrenos</h1>
+        <div class="slider">
+          <ul id="items">
+            <template id="template-card">
+              <li>
+                <div class="new">
+                  <img id="image" src="" alt=""></img>
+                  <h5></h5>
+                </div>
+              </li>
+            </template>
+          </ul>
+          <div class="contdetail">
+            <div id="detail" class="detail">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="peli" id="peli">
+        <h1>Todas las Peliculas</h1>
+        <div class="slider">
+          <ul id="items1">
+            <template id="template-new">
+              <li>
+                <div class="new">
+                  <img id="image" src="" alt=""></img>
+                  <h5></h5>
+                </div>
+              </li>
+            </template>
+          </ul>
+          <div class="contdetail">
+            <div id="detail1" class="detail1">
+            </div>
+          </div>
+        </div>
+
+        <div class="series">
+          <h1>Series</h1>
+          <div class="slider">
+            <ul id="items2">
+              <template id="template-new2">
+                <li>
+                  <div class="new">
+                    <img id="image" src="" alt=""></img>
+                    <h5></h5>
+                  </div>
+                </li>
+              </template>
+            </ul>
+            <div class="contdetail">
+              <div id="detail2" class="detail2">
+              </div>
+            </div>
+          </div>
+
+
+          <div id="listaPelis" class="miLista"></div>
+          <div id="listaPelis1" class="miLista"></div>
+          <div id="listaPelis2" class="miLista"></div>
+
+          <!-- Bootstrap script-->
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+            crossorigin="anonymous"></script>
+          <script src="scripts/script.js" type="module"></script>
+
+          <script src="data/data.js" type="module"></script>
+          <script src="data/dataEstrenos.js" type="module"></script>
+          <script src="data/dataSeries.js" type="module"></script>
+  </body>
+
+</html>

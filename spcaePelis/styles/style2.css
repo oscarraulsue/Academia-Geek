@@ -1,0 +1,371 @@
+
+header{
+    background-color: rgb(5, 2, 32);
+    width: 100%;
+    display: inline-block;
+    align-items: center;
+ 
+  
+}
+header #contheader{
+  height: 15%;
+}
+header img{
+ width: 100px;
+}
+header .imgHeader{
+  height: 500px;
+  width: 100%;
+}
+body {
+ 
+    font-family: sans-serif;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    background-repeat: no-repeat;
+    
+  }
+  .nav{
+    font-size: 22px;
+    font-weight: bold;
+  }
+
+ h1 {
+font-size: 40px;
+
+margin: 2% ;
+
+text-align: center;
+color: cyan;
+
+  }
+  /* estrenos */
+  .estrenos .slider li{
+    margin: 0px;
+    list-style: none;
+    margin-bottom: 30px;
+  }
+  .estrenos .slider #items{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 100%;
+    height: 100%;
+   
+  }
+
+  .estrenos .slider li img {
+height: 320px;
+width: 250px;
+cursor: pointer;
+margin: auto;
+  }
+
+  .estrenos .slider h3{
+
+      font-size: 18px;
+      color: blanchedalmond;
+      width: 240px;
+      text-align: center;
+     margin-top: 10px;
+  }
+  /* peli */
+  .peli .slider li{
+    margin: 0px;
+    list-style: none;
+    margin-bottom: 30px;
+  }
+  .peli .slider #items1{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 100%;
+    height: 100%;
+   
+  }
+
+  .peli .slider li img {
+height: 320px;
+width: 250px;
+cursor: pointer;
+margin: auto;
+  }
+
+  .peli .slider h3{
+
+      font-size: 18px;
+      color: blanchedalmond;
+      width: 240px;
+      text-align: center;
+     margin-top: 10px;
+  }
+  /* series */
+  .series .slider li{
+    margin: 0px;
+    list-style: none;
+  }
+  .series .slider #items2{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 95%;
+    height: 100%;
+    margin: 15px;
+  }
+  .series .slider li img {
+height: 320px;
+width: 220px;
+cursor: pointer;
+  }
+
+  .series .slider h3{
+      margin: 20px;
+      font-size: 18px;
+      color: blanchedalmond;
+      width: 200px;
+      text-align: center;
+  } 
+
+  /* otros*/
+  
+
+ .detail img{
+
+    display: flex;
+   height: 90vh;
+    width: 100%;
+    font-size: 17px;
+    color: azure;
+    justify-items: center;
+   
+ }
+
+.detail2 table{
+  color: white;
+
+}
+.detail2 h5{
+  padding-left: 50px;
+  margin-bottom: 20px;
+}
+.detail2 td{
+  padding: 20px;  
+ 
+}
+.detail2 h4{
+  color: aquamarine;
+}
+.detail2 h2{
+  text-align: center;
+  color: rgb(23, 90, 153);
+  font-weight: bold;
+  margin: 20px;
+}
+/* descripcion*/
+.descrip{
+  height: 0;
+  overflow: hidden;
+padding: 0px;
+margin: 0;
+font-size: 17px;
+color: white;
+border-radius: 10px;
+
+}
+.detall{
+  font-size: 17px;
+  margin: 10px;
+padding-bottom: 2px;
+
+}
+#nam{
+  text-align: center;
+  font-weight: bold;
+  margin-top: 15px;
+}
+#desc{
+  margin-top: 30px;
+  color:rgb(139, 207, 99);
+  text-align: center;
+  height: 180px;
+  overflow: hidden;
+}
+#nam1{
+  text-align: center;
+  font-weight: bold;
+  margin-top: 15px;
+}
+#desc1{
+  margin-top: 30px;
+  color:rgb(139, 207, 99);
+  text-align: center;
+  height: 180px;
+  overflow: hidden;
+}
+/* hovers */
+.portada:hover {
+  display: none;
+  
+}
+.portada:hover ~ .descrip{
+  height: 320px;
+  width: 250px;
+  background-color: rgb(0, 43, 49);
+  
+}
+@media (max-width: 768px) {
+  header .imgHeader{
+    height: 430px;
+  }
+  /* estrenos */
+
+  .estrenos .slider #items{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 100%;
+    height: 100%;
+   
+  }
+
+  .estrenos .slider li #image {
+height: 250px;
+width: 180px;
+cursor: pointer;
+margin: 30px;
+  }
+
+  /* peli*/
+  .peli .slider #items1{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 100%;
+    height: 100%;
+   
+  }
+
+  .peli .slider li #image {
+height: 250px;
+width: 180px;
+cursor: pointer;
+margin: 30px;
+  }
+  /*  series */
+ 
+
+  .series .slider #items2{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 100%;
+    height: 100%;
+   
+  }
+
+  .series .slider li #image {
+height: 250px;
+width: 180px;
+cursor: pointer;
+margin: 30px;
+  }
+  }
+
+
+    
+  @media (max-width: 538px) {
+  
+    header .imgHeader{
+      height: 150px;
+      width: 100%;
+  
+    }
+    header .nav-link{
+      font-size: 8px;
+   padding-left: 5px;
+    }
+    header img{
+      width: 30px;
+    } 
+    h1{
+      font-size: 18px;
+    }
+    /* estrenos*/
+  .estrenos .slider li{
+  
+    list-style: none;
+   margin: 0;
+  }
+  .estrenos .slider #items{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+    height: 100%;
+   margin: 0;
+   padding: 0;
+  }
+
+  .estrenos .slider li #image {
+    height: 110px;
+    width: 90px;
+  }
+
+  .estrenos .slider h3{
+    font-size: 10px;
+    color: blanchedalmond;
+    width: 70px;
+   margin-left: 40px;
+   margin-top: -25px;
+    
+  }
+      /* peli*/
+  .peli .slider li{
+  
+    list-style: none;
+   margin: 0;
+  }
+  .peli .slider #items1{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+    height: 100%;
+   margin: 0;
+   padding: 0;
+  }
+
+  .peli .slider li #image {
+    height: 110px;
+    width: 90px;
+  }
+
+  .peli .slider h3{
+    font-size: 10px;
+    color: blanchedalmond;
+    width: 70px;
+   margin-left: 40px;
+   margin-top: -25px;
+    
+  }
+      /* series*/
+  .series .slider li{
+  
+    list-style: none;
+   margin: 0;
+  }
+  .series .slider #items2{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+    height: 100%;
+   margin: 0;
+   padding: 0;
+  }
+
+  .series .slider li #image {
+    height: 110px;
+    width: 90px;
+  }
+
+  .series .slider h3{
+    font-size: 10px;
+    color: blanchedalmond;
+    width: 70px;
+   margin-left: 40px;
+   margin-top: -25px;
+    
+  }  
+    }
