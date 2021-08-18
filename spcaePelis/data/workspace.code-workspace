@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"name": "Aprendiz-Geek-OS",
+			"path": "..\\.."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Aprendiz-Geek-OS"
+	}
+}

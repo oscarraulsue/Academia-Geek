@@ -3,7 +3,7 @@ const num2 = 7;
 
 
 let suma, resta, multi, div;  
-let operacion = (prompt(`ingre`))
+let operacion = (prompt(`ingrese la operacion a realizar`))
 
 switch (operacion.toLocaleLowerCase()){
 case 'suma':

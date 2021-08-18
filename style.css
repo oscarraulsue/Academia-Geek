@@ -1,0 +1,86 @@
+.strenos .slider {
+	width: 95%;
+	margin: auto;
+	overflow: hidden;
+}
+
+.peli .slider ul {
+	display: flex;
+	padding: 0;
+	width: 100%;
+	
+	animation: cambio 20s infinite alternate linear;
+}
+
+.peli .slider li {
+	width: 100%;
+	list-style: none;
+    
+}
+
+.peli .slider img {
+	width: 100%;
+}
+
+@keyframes cambio {
+	0% {margin-left: 0;}
+	20% {margin-left: 0;}
+	
+	25% {margin-left: -30%;}
+	45% {margin-left: -30%;}
+	
+	50% {margin-left: -50%;}
+	70% {margin-left: -50%;}
+	
+	75% {margin-left: -100%;}
+	100% {margin-left: -100%;}
+}
+.strenos .slider {
+	width: 95%;
+	margin: auto;
+	overflow: hidden;
+}
+
+.estrenos .slider ul {
+	display: flex;
+	padding: 0;
+	width: 100%;
+	
+	animation: cambio1 40s infinite alternate linear;
+}
+
+.peli .slider li {
+	width: 100%;
+	list-style: none;
+    
+}
+
+.peli .slider img {
+	width: 100%;
+}
+
+@keyframes cambio1 {
+	0% {margin-left: 0;}
+	10% {margin-left: 0;}
+	
+    13% {margin-left: -15%;}
+	23% {margin-left: -15%;}
+
+	26% {margin-left: -30%;}
+	36% {margin-left: -30%;}
+	
+	39% {margin-left: -40%;}
+	49% {margin-left: -40%;}
+	
+    49% {margin-left: -50%;}
+	59% {margin-left: -50%;}
+
+    62% {margin-left: -65%;}
+	72% {margin-left: -65%;}
+
+	75% {margin-left: -80%;}
+	85% {margin-left: -80%;}
+
+    88% {margin-left: -100%;}
+	100% {margin-left: -100%;}
+}

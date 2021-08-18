@@ -7,7 +7,7 @@ function palindromo(texto) {
 }
 else{
     const x = texto.toLowerCase(); 
-    const a = x.replace(/\s/g, ''); 
+    const a = x.replace(/[\W_]/g, ""); 
     const c = a.split("").reverse().join(""); 
   console.log(texto)
     if (a === c) {

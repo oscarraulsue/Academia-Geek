@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "..\\..\\..\\..\\Desktop\\Aprendiz-Geek\\heroes-app"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Aprendiz-Geek-OS",
+		"liveServer.settings.port": 5501
+	}
+}
